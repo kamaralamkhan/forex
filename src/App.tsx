@@ -9,7 +9,8 @@ import { AccountSizeSelection } from "./components/AccountSizeSelection";
 import HeroSection from "./components/HeroSection";
 import CustomerReviews from "./components/CustomerReview";
 import { Helmet } from "react-helmet";
-
+// import dotenv from 'dotenv';
+// dotenv.config();
 const paymentLinks = {
   instant: {
     "101": "https://dxrjyl.courses.store/593493",
@@ -103,9 +104,11 @@ function App() {
         ...formData,
         total: `$${selectedAmount.price}`, // Including the price
       };
-  
+        //  const apiUrl = process.env.REACT_APP_FORMSPREE_API;
+
       // Send form data to Formspree
-      const formspreeResponse = await fetch("https://formspree.io/f/xldennyl", {
+      const formspreeResponse = await fetch("https://formspree.io/f/mnnqvwlp", {
+      // const formspreeResponse = await fetch( apiUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedFormData),
