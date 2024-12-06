@@ -163,11 +163,16 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Choose Your Program - Forex Fundz | Trading Platform</title>
+        <title>Choose Your Trading Platform | Forex Fundz </title>
         <meta
           name="description"
-          content="Select from our industry-leading trading programs."
+          content="Explore affordable Forex trading services with Forex Fundz. Get expert guidance, low fees, and tailored solutions to maximize your trading potential today!"
         />
+        
+<meta name="google-site-verification" content="yyxJllLJMjJ3_N1u8YvmW0vLfqgBs_4KEUr_YM9hi38" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview: large, max-video-preview:-1" />
+        <meta name="keywords" content="forex trading platform, forex funded account, forex trading for beginners, funded accounts trading, platform for trading forex, forex trading website, funded account forex, forex trading investment, meta trading forex, forex trading market, forex trading tools, meta trader platform, forex investment trading, Global Forex Markets Trading, Affordable Forex Trading Services, Funded Forex Accounts Services, Forex Funding Solutions, Forex Funded Accounts for Beginners, Funded Forex Trading Opportunities, Secure Forex Funded Accounts" />
+        <link rel="canonical" href="https://forexfundz.com/" />
       </Helmet>
       <Router>
         <div className="min-h-screen flex flex-col">

@@ -14,10 +14,12 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <a 
+          href='/'
+          className="flex items-center space-x-2 cursor-pointer">
             <TrendingUp className="h-8 w-8 text-orange-500" />
             <span className="text-2xl font-bold text-white">Forexfundz</span>
-          </div>
+          </a>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
